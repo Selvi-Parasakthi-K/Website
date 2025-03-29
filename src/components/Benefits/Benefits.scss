@@ -1,0 +1,18 @@
+.Benefits {
+    background: linear-gradient(96deg, rgba(255, 255, 255, 0.70) -3.1%, rgba(255, 223, 183, 0.70) 86.16%, rgba(255, 255, 255, 0.70) 117.85%);
+    
+    .benefits-number {
+      transition: transform 0.3s ease;
+      
+      h1 {
+        line-height: 1;
+        margin-bottom: 0.5rem;
+      }
+    }
+    
+    @media (max-width: 1024px) {
+      .benefits-numbers {
+        margin-top: 2rem;
+      }
+    }
+  }

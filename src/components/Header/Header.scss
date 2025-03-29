@@ -1,0 +1,63 @@
+.Header {
+    font-family: 'Roboto', sans-serif;
+    
+    .nav-link {
+      font-size: 16px;
+      font-weight: 400;
+      color: #232323;
+      transition: color 0.2s;
+      
+      &.active {
+        font-weight: 500;
+        color: #223A74;
+      }
+      
+      &:hover {
+        color: #223A74;
+      }
+    }
+  
+    .login-btn {
+      min-width: 119px;
+      height: 35px;
+      background-color: #223A74;
+      font-size: 15px;
+      font-weight: 600;
+      border-radius: 152px;
+      color: #fff;
+      transition: background-color 0.2s;
+      
+      &:hover {
+        background-color: #1a2d5c;
+      }
+    }
+  
+    .nav-search {
+      input {
+        font-size: 14px;
+        height: 36px;
+        border-radius: 152px;
+        border: 1px solid #616888;
+        background-color: transparent;
+        font-family: 'Roboto', sans-serif;
+        color: #616888;
+        transition: all 0.2s;
+        
+        &:focus {
+          outline: none;
+          border-color: #223A74;
+          box-shadow: 0 0 0 2px rgba(34, 58, 116, 0.2);
+        }
+      }
+    }
+  
+    .select-lang {
+      font-size: 14px;
+      color: #232323;
+      cursor: pointer;
+      
+      &:focus {
+        outline: none;
+      }
+    }
+  }

@@ -1,8 +1,17 @@
+import Header from "./components/Header/Header";
+import Partners from "./components/Partners/Partners";
+import Benefits from "./components/Benefits/Benefits";
+import RewardsProgram from "./components/RewardsProgram/RewardsProgram";
 import "./index.css";
 
 function App() {
   return (
-    <p className="text-3xl font-bold underline text-center">Hello world!</p>
+    <div>
+      <Header />
+      <Partners />
+      <Benefits />
+      <RewardsProgram />
+    </div>
   );
 }
 
