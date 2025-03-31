@@ -1,0 +1,52 @@
+.LevelsSection {
+    .level-tier-outer {
+      .level1 {
+        background: url(../../assets/reward-dashboard/level1.svg) no-repeat center center;
+        background-size: cover;
+      }
+      .level2 {
+        background: url(../../assets/reward-dashboard/level2.svg) no-repeat center center;
+        background-size: cover;
+      }
+      .level3, .level4, .level5, .level6 {
+        background: url(../../assets/reward-dashboard/level3.svg) no-repeat center center;
+        background-size: cover;
+      }
+      
+      .level-card {
+        border-radius: 12px;
+        overflow: hidden;
+      }
+    }
+    
+    .platinum-card {
+      background: url(../../assets/reward-dashboard/rewardcard.svg) no-repeat center center;
+      background-size: cover;
+      
+      .pcards-points {
+        color: #fff;
+      }
+    }
+
+    .referral-card {
+        background: url(../../assets/reward-dashboard/referral-bg.svg) no-repeat center center
+    }
+
+    .level-cards .coupons:nth-child(n+5) {
+      display: none;
+    }
+
+    .level-rank {
+      border-radius: 8px 8px 0px 0px;
+      border-bottom: 1px solid #AC9CE0;
+    }
+    
+    @media (max-width: 1023px) {
+      .divider {
+        img {
+          transform: rotate(90deg);
+          max-height: 40px;
+        }
+      }
+    }
+  }

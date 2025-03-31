@@ -15,7 +15,7 @@ const RewardsProgram: FC<RewardsProgramProps> = () => (
   >
     <div className="max-w-[1800px] mx-auto flex flex-col items-center px-24">
       <div className="rewards-header text-center mb-12 max-w-2xl">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+        <h1 className="text-3xl font-bold text-gray-900 mb-4">
           CoverB Rewards Program
         </h1>
         <p className="text-lg text-gray-600">Unlock Exclusive Benefits</p>
@@ -36,7 +36,7 @@ const RewardsProgram: FC<RewardsProgramProps> = () => (
           <img
             src={Line1}
             alt=""
-            className="h-1 md:h-auto md:w-24 lg:w-56 -mt-24"
+            className="h-1 md:h-auto md:w-24 lg:w-96 -mt-32"
           />
         </div>
 
@@ -54,7 +54,7 @@ const RewardsProgram: FC<RewardsProgramProps> = () => (
           <img
             src={Line2}
             alt=""
-            className="h-1 md:h-auto md:w-24 lg:w-56 -mt-24"
+            className="h-1 md:h-auto md:w-24 lg:w-96 -mt-32"
           />
         </div>
 

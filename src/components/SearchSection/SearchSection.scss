@@ -1,0 +1,21 @@
+.SearchSection {
+    .search-item {
+        &:hover {
+            background: linear-gradient(110deg, #EDA22E 8.56%, #E8002B 91.77%);
+            h4 {
+                color: #fff;
+            }
+            img {
+                filter: brightness(0) invert(1);
+            }
+        }
+    }
+    .searchbar {
+        input {
+            
+            &:focus {
+              outline: none;
+            }
+        }
+    }
+}

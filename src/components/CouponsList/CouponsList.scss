@@ -1,0 +1,15 @@
+.CouponsList {
+    .coupon-label  {
+        background: linear-gradient(93deg, #E5E9FE 2.58%, #CCD8F4 96.85%);
+    }
+
+    .redeem-button {
+        background: linear-gradient(110deg, #EDA22E 8.56%, #E8002B 91.77%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        &:hover {
+            border-color: transparent;
+        }
+    }
+}
