@@ -8,8 +8,8 @@ const FilterSection: FC<FilterSectionProps> = () => {
   const filterItems = [
     "Ramadan",
     "All Categories",
-    "Yet to Expired",
-    "Dinning",
+    "Yet to Expire",
+    "Dining",
     "Suggested for you",
   ];
   return (

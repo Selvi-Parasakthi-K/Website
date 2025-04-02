@@ -45,7 +45,7 @@ const LevelsSection: FC<LevelsSectionProps> = () => {
       <section className="level-section flex flex-row justify-between gap-8">
         <div className="level-tier-outer w-[calc(100%-434px)] flex flex-row gap-3 px-6 flex-1 items-center rounded-[20px] bg-white self-stretch">
           <div className="level-outer-left flex justify-between items-center gap-10">
-            <div className="level-tier flex flex-col justify-between items-start w-[700px] h-[178px]">
+            <div className="level-tier flex flex-col justify-between items-start h-[178px]">
               <div className="heading text-[#546680] text-base font-medium">
                 <span>Level Tier</span>
               </div>

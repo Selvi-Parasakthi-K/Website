@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import "./EarningSteps.scss";
 import ShopingReward from "../../assets/landing/shopping-reward.svg";
 import LimitedOffer from "../../assets/landing/limited-offer.svg";
@@ -13,7 +13,7 @@ const EarningSteps: FC<EarningStepsProps> = () => (
     <div className=" mx-auto flex flex-col items-center px-24">
       <div className="rewards-header text-center mb-12 max-w-2xl">
         <h1 className="text-3xl font-bold text-gray-900 mb-4">
-          Simple Steps to Earn & Redeem Your<span>CoverB Rewards!</span>
+          Simple Steps to Earn & Redeem Your <span>CoverB Rewards!</span>
         </h1>
       </div>
 

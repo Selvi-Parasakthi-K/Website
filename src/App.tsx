@@ -2,24 +2,15 @@ import "./index.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage/HomePage";
 import RewardsDashboard from "./pages/RewardsDashboard/RewardsDashboard";
+import RewardsPointsTable from "./pages/RewardsPointsTable/RewardsPointsTable";
 
 function App() {
   return (
-    // <div>
-    //   <Header />
-    //   <HomeSlider />
-    //   <Partners />
-    //   <Benefits />
-    //   <RewardsProgram />
-    //   <EarningSteps />
-    //   <EnjoyRewards />
-    //   <FAQ />
-    //   <Footer />
-    // </div>
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/Rewards-Main-Dahboard" element={<RewardsDashboard />} />
+        <Route path="/rewards-points-table" element={<RewardsPointsTable />} />
       </Routes>
     </Router>
   );
