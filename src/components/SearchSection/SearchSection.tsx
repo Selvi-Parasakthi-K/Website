@@ -31,7 +31,7 @@ const SearchSection: FC<SearchSectionProps> = () => {
           </div>
         ))}
       </div>
-      <div className="searchbar-sec flex flex-row items-center">
+      <div className="searchbar-sec flex flex-row items-center gap-3">
         <div className="searchbar flex py-2 px-3 items-center gap-2 rounded-[20px] border border-[#ECEEF1]">
           <input type="text" placeholder="Search here..." />
           <img src={Filter} alt="" />
