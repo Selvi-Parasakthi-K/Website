@@ -15,13 +15,12 @@ const Partners: FC<PartnersProps> = () => (
   >
     <div className="max-w-[1800px] mx-auto">
       <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
-        <h2 className="text-2xl md:text-4xl font-bold text-gray-800 min-w-[200px]">
+        <h2 className="text-2xl md:text-4xl font-bold text-gray-800 w-[100%] md:w-[30%] text-center md:text-left">
           Our Partners
         </h2>
 
         <div className="relative w-full">
-          {/* Scrollable container with custom scrollbar */}
-          <div className="brand-logos-container">
+          <div className="hidden md:block brand-logos-container">
             <div className="brand-logos">
               <div className="flex space-x-6 md:space-x-8 lg:space-x-10">
                 <div className="flex-shrink-0 w-[120px] md:w-[140px] lg:w-[160px]">
@@ -60,6 +59,44 @@ const Partners: FC<PartnersProps> = () => (
                   />
                 </div>
               </div>
+            </div>
+          </div>
+
+          <div className="md:hidden grid grid-cols-2 gap-6">
+            <div className="flex justify-center">
+              <img
+                src={Logo1}
+                alt="Partner Logo 1"
+                className="w-[120px] h-auto object-contain"
+              />
+            </div>
+            <div className="flex justify-center">
+              <img
+                src={Logo2}
+                alt="Partner Logo 2"
+                className="w-[120px] h-auto object-contain"
+              />
+            </div>
+            <div className="flex justify-center">
+              <img
+                src={Logo3}
+                alt="Partner Logo 3"
+                className="w-[120px] h-auto object-contain"
+              />
+            </div>
+            <div className="flex justify-center">
+              <img
+                src={Logo4}
+                alt="Partner Logo 4"
+                className="w-[120px] h-auto object-contain"
+              />
+            </div>
+            <div className="flex justify-center">
+              <img
+                src={Logo5}
+                alt="Partner Logo 5"
+                className="w-[120px] h-auto object-contain"
+              />
             </div>
           </div>
         </div>

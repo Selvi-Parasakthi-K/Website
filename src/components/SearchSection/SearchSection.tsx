@@ -10,10 +10,18 @@ interface SearchSectionProps {}
 
 const SearchSection: FC<SearchSectionProps> = () => {
   const searchItems = [
-    { image: Redeem, text: "Redeem" },
-    { image: Vouchers, text: "Vouchers" },
-    { image: Vip, text: "VIP Rewards" },
-    { image: Reward, text: "Rewards history" },
+    { image: Redeem, text: "Redeem", redirectUrl: "#" },
+    {
+      image: Vouchers,
+      text: "Vouchers",
+      redirectUrl: "/Rewards-Main-Dahboard",
+    },
+    { image: Vip, text: "VIP Rewards", redirectUrl: "#" },
+    {
+      image: Reward,
+      text: "Rewards history",
+      redirectUrl: "/rewards-points-table",
+    },
   ];
   return (
     <div
@@ -22,13 +30,14 @@ const SearchSection: FC<SearchSectionProps> = () => {
     >
       <div className="flex flex-row gap-4 ">
         {searchItems.map((item, index) => (
-          <div
-            className="search-item flex flex-row bg-[#F7F7F7] rounded-3xl p-3 gap-2"
+          <a
+            className="search-item flex flex-row bg-[#F7F7F7] rounded-3xl p-3 gap-2 cursor-pointer"
             key={index}
+            href={item.redirectUrl}
           >
             <img src={item.image} alt="" />
             <h4 className="text-[#546680] font-medium">{item.text}</h4>
-          </div>
+          </a>
         ))}
       </div>
       <div className="searchbar-sec flex flex-row items-center gap-3">

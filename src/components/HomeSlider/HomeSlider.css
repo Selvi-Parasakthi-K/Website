@@ -59,10 +59,7 @@ p {
 .start-btn {
   background: linear-gradient(113deg, #eda22e 14.33%, #e8002b 77.69%);
   color: #fff;
-  padding: 10px 16px;
   border-radius: 25px;
-  font-size: 1rem;
-  font-weight: bold;
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -86,6 +83,12 @@ p {
 img {
   max-width: 100%;
   height: auto;
+}
+
+@media (max-width: 768px) {
+  .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, 0px);
+  }
 }
 
 .swiper-pagination-bullet {

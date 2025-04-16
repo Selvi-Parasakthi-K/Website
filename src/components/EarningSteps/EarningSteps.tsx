@@ -10,14 +10,14 @@ const EarningSteps: FC<EarningStepsProps> = () => (
     className="EarningSteps w-full mx-auto py-16 px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-20"
     data-testid="RewardsProgram"
   >
-    <div className=" mx-auto flex flex-col items-center px-24">
-      <div className="rewards-header text-center mb-12 max-w-2xl">
-        <h1 className="text-3xl font-bold text-gray-900 mb-4">
+    <div className=" mx-auto flex flex-col items-center md:px-24 px-12">
+      <div className="rewards-header text-center md:mb-12 mb-5 max-w-2xl">
+        <h1 className="md:text-3xl text-2xl md:font-bold font-semibold text-gray-900 mb-4">
           Simple Steps to Earn & Redeem Your <span>CoverB Rewards!</span>
         </h1>
       </div>
 
-      <div className="rewards-steps flex flex-col md:flex-row items-center justify-between gap-8 md:gap-4 lg:gap-8 xl:gap-12 w-full">
+      <div className="rewards-steps flex flex-col md:flex-row items-center justify-between gap-4 md:gap-4 lg:gap-8 xl:gap-12 w-full">
         <div className="flex flex-col items-center text-center ">
           <img src={ShopingReward} alt="Buy" className="mb-6" />
           <div className="step-content">

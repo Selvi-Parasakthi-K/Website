@@ -1,15 +1,7 @@
 .LevelsSection {
     .level-tier-outer {
-      .level1 {
+      .levels {
         background: url(../../assets/reward-dashboard/level1.svg) no-repeat center center;
-        background-size: cover;
-      }
-      .level2 {
-        background: url(../../assets/reward-dashboard/level2.svg) no-repeat center center;
-        background-size: cover;
-      }
-      .level3, .level4, .level5, .level6 {
-        background: url(../../assets/reward-dashboard/level3.svg) no-repeat center center;
         background-size: cover;
       }
       
@@ -20,7 +12,7 @@
     }
     
     .platinum-card {
-      background: url(../../assets/reward-dashboard/rewardcard.svg) no-repeat center center;
+      background: url(../../assets/reward-dashboard/card-bg.png) no-repeat center center;
       background-size: cover;
       
       .pcards-points {

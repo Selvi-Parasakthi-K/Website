@@ -13,8 +13,8 @@ const RewardsProgram: FC<RewardsProgramProps> = () => (
     className="RewardsProgram w-full mx-auto py-16 px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-20"
     data-testid="RewardsProgram"
   >
-    <div className="max-w-[1800px] mx-auto flex flex-col items-center px-24">
-      <div className="rewards-header text-center mb-12 max-w-2xl">
+    <div className="max-w-[1800px] mx-auto flex flex-col items-center md:px-24 px-10">
+      <div className="rewards-header text-center md:mb-12 mb-6 max-w-2xl">
         <h1 className="text-3xl font-bold text-gray-900 mb-4">
           CoverB Rewards Program
         </h1>
@@ -23,10 +23,10 @@ const RewardsProgram: FC<RewardsProgramProps> = () => (
 
       <div className="rewards-steps flex flex-col md:flex-row items-center justify-center gap-8 md:gap-4 lg:gap-8 xl:gap-12 w-full">
         <div className="flex flex-col items-center text-center max-w-[240px]">
-          <img src={Buy} alt="Buy" className="mb-6" />
+          <img src={Buy} alt="Buy" className="md:mb-6 mb-5" />
           <div className="step-content">
             <h2 className="text-xl font-bold text-gray-800 mb-2">Buy</h2>
-            <p className="text-gray-600">
+            <p className="text-gray-600 mt-2">
               Make a purchase and start collecting reward points.
             </p>
           </div>
@@ -41,10 +41,10 @@ const RewardsProgram: FC<RewardsProgramProps> = () => (
         </div>
 
         <div className="flex flex-col items-center text-center max-w-[240px]">
-          <img src={Earn} alt="Earn" className="mb-6" />
+          <img src={Earn} alt="Earn" className="md:mb-6 mb-5" />
           <div className="step-content">
             <h2 className="text-xl font-bold text-gray-800 mb-2">Earn</h2>
-            <p className="text-gray-600">
+            <p className="text-gray-600 mt-2">
               Make a purchase and start collecting reward points.
             </p>
           </div>
@@ -59,10 +59,10 @@ const RewardsProgram: FC<RewardsProgramProps> = () => (
         </div>
 
         <div className="flex flex-col items-center text-center max-w-[240px]">
-          <img src={Reward} alt="Reward" className="mb-6" />
+          <img src={Reward} alt="Reward" className="md:mb-6 mb-5" />
           <div className="step-content">
             <h2 className="text-xl font-bold text-gray-800 mb-2">Reward</h2>
-            <p className="text-gray-600">
+            <p className="text-gray-600 mt-2">
               Make a purchase and start collecting reward points.
             </p>
           </div>
